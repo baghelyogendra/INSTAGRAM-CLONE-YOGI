@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.left {
+    background-color: black;
+    width: 25%;
+    height: 3000px;
+    float: left;
+}
+.logo img {
+    width: 800px;
+    height: 320px;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: black;
+    color: black;
+}
+.box a{
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    line-height: 40px;
+    display: flex;
+    margin: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+.box .icon {
+    margin-right: 5%;
+    font-size: 80px;
+    color: aliceblue;
+    padding-left: 80px;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+#Home {
+    font-size: 50px;
+    align-items: center;
+    color: aliceblue;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    padding-top: 50px;
+}
+#Login {
+    font-size: 50px;
+    align-items: center;
+    color: aliceblue;
+}
+#more {
+    padding-top: 950px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.more {
+    margin-right: 5%;
+    font-size: 80px;
+    padding-top: 950px;
+    color: aliceblue;
+    margin-left: 120px;
+}
+h2 {
+    font-size: 600px;
+}
+.stories-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+h3 {
+    font-size: 80px;
+    color: white;
+}
+.stories-title .btn {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.text {
+    font-size: 50px;
+}
+.stories-title .btn i {
+    font-size: 80px;
+    margin-right: 10px;
+}
+.stories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.stories-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.stories-img img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    margin-top: 10px;
+}
+.stories-img.color {
+    border: 2px solid red;
+}
+.stories-img.add {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.Yogi {
+    color: wheat;
+    position: absolute;
+    margin-top: 350px;
+    font-size: 45px;
+}
+.King {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 130px;
+    margin-top: 50px;
+    border-radius: 50%;
+    padding-right: 4px;
+    border: 2px solid red;
+    margin-top: 200px;
+}
+.King img {
+    width: 110px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    margin-top: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+.bag {
+    color: aliceblue;
+    font-size: 45px;
+    display: flex;
+    margin-left: 500px;
+}
+span {
+    color: grey;
+    font-size:40px;
+}
+.village {
+    color: aliceblue;
+    margin-top: 50px;
+}
+.post-image{
+    width: 100%;
+    height: 1500px;
+    padding: 50px;
+    border: 50px solid wheat;
+}
+.vi {
+    font-size: 100px;
+}
+.post-content {
+    color: aliceblue;
+    font-size: 70px;
+}
+#smile i{
+    font-size: 100px;
+}
+.c {
+    width: 100%;
+    height: 150px;
+    border-radius: 1px solid white;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.comment {
+    width: 95%;
+    height: 80px;
+    border: none;
+    outline: none;
+    font-size: 50px;
+}
+.comment-btn {
+    width: 70px;
+    height: 100%;
+    background: none;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 55px;
+    color: aqua;
+    opacity: 0.5;
+}
+.save {
+    margin-left: 1800px;
+    color: white;
+    height: 80px;
+    background-color: black;
+}
+.middle {
+    background-color: black;
+    width: 45%;
+    height: 3000px;
+    margin: 0 auto;
+    float: left;
+}
+
+.right {
+    background-color: black;
+    width: 30%;
+    height: 3000px;
+    float: right;
+}
+.profile-card {
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-left: 250px;
+    border: 9px solid red;
+    
+}
+.profile-pic img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center; 
+    display: block;
+}
+#name {
+     color: grey;
+     font-size: 45px;
+     position: absolute;
+     font-weight: 800;
+     padding-left: 300px;
+     margin-top: 110px;
+}
+#Surname {
+    color: aliceblue;
+     font-size: 60px;
+     position: absolute;
+     font-weight: 800;
+     padding-left: 270px;
+     margin-top: 40px;
+}
+.Switch {
+    height: 50px;
+    width: 250px;
+    margin-left: 165px; 
+    color: blue;
+    font-size: 50px;
+    background-color: black;
+    border: none;
+}
+.Suggest {
+    color: white;
+    margin-top: 150px;
+    height: 150px;
+    width: 1000px;
+    font-size: 50px;
+    font-weight: 900;
+}
+#for {
+    color: grey;
+    font-size: 60px;
+}
+.See{
+    font-size: 60px;
+    float: right;
+    color: rgb(184, 184, 184);
+}
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+.key img {
+    width: 170px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    position: absolute;
+}
+#nikk {
+     color: grey;
+     font-size: 45px;
+     position: absolute;
+     font-weight: 800;
+     padding-left: 930px;
+     margin-top: 120px; 
+}
+.aja {
+    height: 50px;
+    width: 250px;
+    margin-left: 165px; 
+    color: blue;
+    font-size: 50px;
+    background-color: black;
+    border: none;
+}
+#Bga {
+    color: aliceblue;
+     font-size: 50px;
+     position: absolute;
+     font-weight: 800;
+     padding-left: 500px;
+}
+.board {
+    margin: 60px;
+    display: flex;
+}
+.k {
+    margin: 60px;
+    display: flex;
+}
+.R {
+    margin: 60px;
+    display: flex;
+}
+.D {
+    margin: 60px;
+    display: flex;
+}
+.s {
+    margin: 60px;
+    display: flex;
+}
+.about {
+   height: 250px;
+   width: 120px;
+   color: aliceblue;
+   color: grey;
+}
+#Press {
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 50px;
+    line-height: 80px;
+}
+#from {
+    color: grey;
+    font-size: 50px;
+    display: block;
+    position: absolute;
+}
